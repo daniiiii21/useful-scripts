@@ -1,3 +1,19 @@
+creating a new repository on the command line:
+
+echo "# presentation" >> README.md
+* git init (initializes a new empty Git repository.)
+* git add README.md
+* git commit -m "first commit"
+* git branch -M main
+* git remote add origin https://github.com/<username>/<repository>.git
+* git push -u origin main
+
+pushing an existing repository from the command line:
+
+* git remote add origin https://github.com/<username>/<repository>.git
+* git branch -M main
+* git push -u origin main
+
 git status --> giving a recap of what was changed lately
 
 git add -A --> adds to staging area. -A --> will add all changes to the staging area. If "git status" is run again tells us the changes, that are ready to be commited. 
